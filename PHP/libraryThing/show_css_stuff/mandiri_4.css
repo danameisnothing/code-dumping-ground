@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background-image: linear-gradient(to right, #6700ff, #00ffdb);
+}
+#redirects{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+#redirects a{
+    border-radius: 7px;
+    padding: 25px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+a:hover{
+    background-color: #282a35;
+}
+#bookDisplay{
+    text-align: center;
+}
+#bookDisplay img{
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
