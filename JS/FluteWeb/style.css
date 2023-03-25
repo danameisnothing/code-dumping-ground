@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* dark mode */
+p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    width: 75px;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    width: 150px;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+    color: turquoise;
+}
+/* end of dark mode */
+#playNotes {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: rgb(59, 66, 82)
+}

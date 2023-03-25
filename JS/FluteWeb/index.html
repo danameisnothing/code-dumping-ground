@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flute Online</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="flute.js"></script>
+</head>
+<body>
+    <noscript>This Site Might Not Work Properly Without Javascript, And The Website Cannot Read Your Cookies</noscript>
+    <p>Based On : <a href="https://www.facebook.com/flutetutorial7/photos/a.315980415465366/1128690954194304/?type=3&is_lookaside=1">https://www.facebook.com/flutetutorial7/photos/a.315980415465366/1128690954194304/?type=3&is_lookaside=1</a></p>
+    <p>Then Based On : <a href="https://epaper.myedisi.com/bse/22063/docs/22063.pdf?reload=1551065097750">https://epaper.myedisi.com/bse/22063/docs/22063.pdf?reload=1551065097750</a></p>
+    <p>Note : This is only for flute with G (yeah idk what that means too)</p>
+    <p id="playNoteResult"></p>
+    <p id="audioLength"></p>
+    <p id="volumeAmount"></p>
+    <tr id="playNotes">
+        <button onclick="playFlute('a1')">A1</button>
+        <button onclick="playFlute('b1')">B1</button>
+        <button onclick="playFlute('c1')">C1</button>
+        <button onclick="playFlute('d1')">D1</button>
+        <button onclick="playFlute('e1')">E1</button>
+        <button onclick="playFlute('f1')">F1</button>
+        <button onclick="playFlute('g1')">G1</button>
+        <button onclick="playFlute('a2')">A2</button>
+        <button onclick="playFlute('b2')">B2</button>
+        <button onclick="playFlute('c2')">C2</button>
+        <button onclick="playFlute('d2')">D2</button>
+        <button onclick="playFlute('e2')">E2</button>
+        <button onclick="playFlute('f2')">F2</button>
+        <button onclick="playFlute('g2')">G2</button>
+    </tr>
+    <p><input id="volumeNum" type="number" value="25"> Note : Number From 1 - 100</p>
+    <button id="changeVolume" onclick="changeVolume()">Change Volume</button>
+    <p>Bugs : The Volume Display Isn't Updating In Real-Time</p>
+</body>
+</html>
