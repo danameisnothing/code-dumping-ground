@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background-image: linear-gradient(to right, #6700ff, #00ffdb);
+}
+#partSubmit{
+    margin-top: 18%;
+    text-align: center;
+}
+#partSubmit input{
+    font-family: 'Poppins', sans-serif;
+}
+#partSubmit button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s;
+}
+#partSubmit h2, #partSubmit label{/*select multiple elements*/
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+button:hover{
+    background-color: #464646;
+}
+.dropdown{
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+}
